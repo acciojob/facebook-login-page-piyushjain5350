@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+main{
+	width:100vw;
+	height:100vh;
+	display:flex;
+	align-items:center;
+}
+body{
+	background-color:#f0f2f5;
+}
+.main_design{
+	display:flex;
+	width:100%;
+	justify-content:space-around;
+}
+.main_design .content , .main_design .login{
+	width:40%;
+}
+.main-design .login{
+	background-color:white;
+}
