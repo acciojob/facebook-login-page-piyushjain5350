@@ -1,4 +1,4 @@
-/*  your css code here. If applicable */
+/* 
 *{
 	margin:0;
 	padding:0;
@@ -70,3 +70,79 @@ body{
 }
 
 
+ */
+
+.facebook{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	background-color:white;
+	width:700px;
+	height:300px;
+	padding:10px;
+	
+}
+.Logo {
+	text-align:center;
+}
+img{
+	width:200px;
+}
+.left {
+	flex:2;
+}
+.card{
+	flex:2;
+}
+form{
+	display:flex;
+	flex-direction:column;
+	border:1px solid white;
+	background-color:white;
+	box-shadow:2px 2px 4px black;
+	padding:8px;
+	justify-content:space-around;
+	width:300px;
+	height:300px;
+}
+input{
+	padding:5px;
+}
+ h1{
+	color:#1877f2;
+	font-size:40px;
+	margin-bottom:0px;
+}
+.Log-in{
+	background-color:#1877f2;
+	border:none;
+	padding:10px;
+	color:white;
+	border-radius:6px;
+}
+.card div{
+	color:#1877f2;
+	text-align:center;
+}
+.horizantal-line{
+	border:1px solid grey;
+	
+}
+.signup {
+	background-color:#42B72A;
+	border: none;
+    border-radius: 6px;
+    font-size: 17px;
+	padding:10px;
+	color:white;
+	width:fit-content;
+	margin:0 auto;
+	cursor:pointer;
+}
+a{
+	text-decoration:none;
+	text-align:center;
+}
+.signup a{
+	color:white;
+}
